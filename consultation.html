@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Book a Consultation | Dfree Novelish</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <div id="header"></div>
+
+    <main>
+
+        <!-- =========================
+             HERO
+        ========================== -->
+
+        <section class="consultation-hero">
+
+            <div class="consultation-hero-content">
+
+                <p class="section-label">LET'S WORK TOGETHER</p>
+
+                <h1>
+                    Tell us about<br>
+                    your project.
+                </h1>
+
+                <p>
+                    Not sure which service you need?
+                    Tell us what you're working on and we'll help
+                    identify the right direction.
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             CONSULTATION FORM
+        ========================== -->
+
+        <section class="consultation-section">
+
+            <div class="consultation-container">
+
+                <!-- LEFT SIDE -->
+
+                <div class="consultation-intro">
+
+                    <p class="section-label">
+                        GET A CONSULTATION
+                    </p>
+
+                    <h2>
+                        Let's understand<br>
+                        what you need.
+                    </h2>
+
+                    <p>
+                        Share a few details about your project,
+                        goals and timeline. This helps us understand
+                        your requirements before we discuss the next step.
+                    </p>
+
+                    <div class="consultation-points">
+
+                        <div>
+                            <span>01</span>
+                            <div>
+                                <strong>Tell us your goal</strong>
+                                <p>
+                                    Explain what you are trying to
+                                    achieve or what support you need.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div>
+                            <span>02</span>
+                            <div>
+                                <strong>Share your requirements</strong>
+                                <p>
+                                    Give us enough context to understand
+                                    your project.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div>
+                            <span>03</span>
+                            <div>
+                                <strong>Discuss the next step</strong>
+                                <p>
+                                    We'll review your enquiry and
+                                    determine the appropriate way forward.
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- RIGHT SIDE -->
+
+                <div class="consultation-form-wrapper">
+
+                    <form class="consultation-form" id="consultationForm">
+
+                        <div class="form-section-title">
+                            <span>01</span>
+                            <h3>Your details</h3>
+                        </div>
+
+
+                        <div class="form-row">
+
+                            <div class="form-group">
+
+                                <label for="name">
+                                    Name *
+                                </label>
+
+                                <input
+                                    type="text"
+                                    id="name"
+                                    name="name"
+                                    placeholder="Your name"
+                                    required
+                                >
+
+                            </div>
+
+
+                            <div class="form-group">
+
+                                <label for="email">
+                                    Email *
+                                </label>
+
+                                <input
+                                    type="email"
+                                    id="email"
+                                    name="email"
+                                    placeholder="you@example.com"
+                                    required
+                                >
+
+                            </div>
+
+                        </div>
+
+
+                        <div class="form-row">
+
+                            <div class="form-group">
+
+                                <label for="phone">
+                                    Phone
+                                </label>
+
+                                <input
+                                    type="tel"
+                                    id="phone"
+                                    name="phone"
+                                    placeholder="Phone number"
+                                >
+
+                            </div>
+
+
+                            <div class="form-group">
+
+                                <label for="role">
+                                    I am a *
+                                </label>
+
+                                <select
+                                    id="role"
+                                    name="role"
+                                    required
+                                >
+
+                                    <option value="">
+                                        Select one
+                                    </option>
+
+                                    <option value="student-researcher">
+                                        Student / Researcher
+                                    </option>
+
+                                    <option value="faculty-academic">
+                                        Faculty / Academic
+                                    </option>
+
+                                    <option value="author">
+                                        Author
+                                    </option>
+
+                                    <option value="professional">
+                                        Professional
+                                    </option>
+
+                                    <option value="business">
+                                        Business
+                                    </option>
+
+                                    <option value="startup">
+                                        Startup
+                                    </option>
+
+                                    <option value="other">
+                                        Other
+                                    </option>
+
+                                </select>
+
+                            </div>
+
+                        </div>
+
+
+                        <div class="form-divider"></div>
+
+
+                        <div class="form-section-title">
+                            <span>02</span>
+                            <h3>Your project</h3>
+                        </div>
+
+
+                        <div class="form-group">
+
+                            <label for="need">
+                                What do you need help with? *
+                            </label>
+
+                            <select
+                                id="need"
+                                name="need"
+                                required
+                            >
+
+                                <option value="">
+                                    Select a service
+                                </option>
+
+                                <option value="research">
+                                    Research & Academic Support
+                                </option>
+
+                                <option value="publication">
+                                    Journal & Publication
+                                </option>
+
+                                <option value="book-publishing">
+                                    Book Writing & Publishing
+                                </option>
+
+                                <option value="website">
+                                    Website Development
+                                </option>
+
+                                <option value="software">
+                                    Software / App Development
+                                </option>
+
+                                <option value="digital-marketing">
+                                    Digital Marketing
+                                </option>
+
+                                <option value="career">
+                                    Career & Education
+                                </option>
+
+                                <option value="other">
+                                    Other
+                                </option>
+
+                            </select>
+
+                        </div>
+
+
+                        <div class="form-group">
+
+                            <label for="details">
+                                Tell us about your project *
+                            </label>
+
+                            <textarea
+                                id="details"
+                                name="details"
+                                rows="6"
+                                placeholder="Briefly describe your project, requirements or goals..."
+                                required
+                            ></textarea>
+
+                        </div>
+
+
+                        <div class="form-row">
+
+                            <div class="form-group">
+
+                                <label for="deadline">
+                                    Deadline
+                                </label>
+
+                                <input
+                                    type="text"
+                                    id="deadline"
+                                    name="deadline"
+                                    placeholder="e.g. 15 November 2026"
+                                >
+
+                            </div>
+
+
+                            <div class="form-group">
+
+                                <label for="budget">
+                                    Budget <span>(optional)</span>
+                                </label>
+
+                                <select
+                                    id="budget"
+                                    name="budget"
+                                >
+
+                                    <option value="">
+                                        Prefer not to say
+                                    </option>
+
+                                    <option value="under-500">
+                                        Under $500
+                                    </option>
+
+                                    <option value="500-1000">
+                                        $500 – $1,000
+                                    </option>
+
+                                    <option value="1000-2500">
+                                        $1,000 – $2,500
+                                    </option>
+
+                                    <option value="2500-5000">
+                                        $2,500 – $5,000
+                                    </option>
+
+                                    <option value="5000-plus">
+                                        $5,000+
+                                    </option>
+
+                                    <option value="to-discuss">
+                                        To discuss
+                                    </option>
+
+                                </select>
+
+                            </div>
+
+                        </div>
+                        <div class="form-checkbox">
+                            <label>
+                                <input type="checkbox" required>
+                                I agree to the collection and use of my information
+                                for the purpose of responding to my enquiry.
+                            </label>
+                        </div>
+                        <div class="form-checkbox">
+                            <label>
+                                <input type="checkbox">
+                                I would like to receive marketing communications from DFREE NOVELISH.
+                            </label>
+                        </div>
+                        <p class="privacy-note">
+                            Your information will be handled in accordance with our
+                            <a href="privacy.html">Privacy Policy</a>.
+                        </p>
+
+                        <div class="form-submit">
+
+                            <button
+                                type="submit"
+                                class="btn-primary"
+                            >
+                                Get a Consultation
+                                <span>→</span>
+                            </button>
+
+                            <p>
+                                We'll review your enquiry and get back
+                                to you with the appropriate next step.
+                            </p>
+
+                        </div>
+
+                    </form>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             OTHER CONTACT OPTIONS
+        ========================== -->
+
+        <section class="consultation-contact">
+
+    <div class="section-container">
+
+        <div class="consultation-contact-content">
+
+            <div>
+
+                <p class="section-label">
+                    CONTACT DFREE NOVELISH
+                </p>
+
+                <h2>
+                    Let's start<br>
+                    the conversation.
+                </h2>
+
+                <p class="contact-intro">
+                    Have a project in mind or need help identifying
+                    the right service? Choose the contact option
+                    that works best for you.
+                </p>
+
+            </div>
+
+
+            <div class="contact-options">
+
+                <a href="consultation.html" class="contact-option">
+
+                    <span>01</span>
+
+                    <strong>Book a Consultation</strong>
+
+                    <small>
+                        Tell us about your project
+                    </small>
+
+                </a>
+
+
+                <a href="consultation.html" class="contact-option">
+
+                    <span>02</span>
+
+                    <strong>Request a Quote</strong>
+
+                    <small>
+                        Discuss your requirements
+                    </small>
+
+                </a>
+
+
+                <a href="mailto:YOUR-EMAIL-HERE"
+                   class="contact-option">
+
+                    <span>03</span>
+
+                    <strong>Email Us</strong>
+
+                    <small>
+                        YOUR-EMAIL-HERE
+                    </small>
+
+                </a>
+
+
+                <a href="tel:YOUR-PHONE-HERE"
+                   class="contact-option">
+
+                    <span>04</span>
+
+                    <strong>Call Us</strong>
+
+                    <small>
+                        YOUR-PHONE-HERE
+                    </small>
+
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+    </main>
+
+
+    <div id="footer"></div>
+
+    <script src="js/script.js"></script>
+
+    <script>
+
+        const consultationForm =
+            document.getElementById("consultationForm");
+
+        consultationForm.addEventListener("submit", function (event) {
+
+            event.preventDefault();
+
+            alert(
+                "Thank you! Your consultation request has been received."
+            );
+
+        });
+
+    </script>
+
+</body>
+
+</html>
