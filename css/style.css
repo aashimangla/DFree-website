@@ -235,6 +235,79 @@
 /* =========================
    HEADER
 ========================= */
+/* =========================
+   TOP ANNOUNCEMENT BAR
+========================= */
+
+.top-bar {
+    width: 100%;
+    background: #063d4d;
+    color: #ffffff;
+}
+
+.top-bar-container {
+    max-width: 1440px;
+    min-height: 28px;
+
+    margin: 0 auto;
+    padding: 0 40px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    font-size: 11px;
+}
+
+
+/* Left announcement */
+
+.announcement {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+
+    color: #ffffff;
+    letter-spacing: 0.2px;
+}
+
+.announcement-dot {
+    color: #42a9c7;
+    font-size: 15px;
+    line-height: 1;
+}
+
+
+/* Right links */
+
+.top-links {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.top-links a {
+    color: #ffffff;
+    text-decoration: none;
+
+    font-size: 10px;
+    font-weight: 600;
+
+    text-transform: uppercase;
+    letter-spacing: 1px;
+
+    opacity: 0.9;
+
+    transition: opacity 0.2s ease;
+}
+
+.top-links a:hover {
+    opacity: 1;
+}
+
+.top-divider {
+    color: rgba(255, 255, 255, 0.3);
+}
 
 .site-header {
     width: 100%;
@@ -291,13 +364,13 @@
 .main-nav {
     display: flex;
     align-items: center;
-    gap: 30px;
+    gap: 27px;
     flex: 1;
 }
 
 .main-nav a {
     color: #344054;
-    font-size: 14px;
+    font-size: 13px;
     font-weight: 500;
     white-space: nowrap;
     transition: color 0.2s ease;
@@ -423,7 +496,7 @@
     .mobile-nav {
         position: absolute;
 
-        top: 75px;
+        top: 103px;
         left: 0;
 
         width: 100%;
@@ -435,6 +508,17 @@
         padding: 10px 25px 25px;
 
         box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08);
+    }
+        .top-bar-container {
+        padding: 0 20px;
+    }
+
+    .top-links {
+        display: none;
+    }
+
+    .announcement {
+        font-size: 10px;
     }
 
     .mobile-nav.active {
